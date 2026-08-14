@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Node
+node_modules/
+dist/
+
+# Editor/OS
+.vscode/
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
