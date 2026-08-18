@@ -1,16 +1,8 @@
-# Python
-.venv/
-__pycache__/
-*.pyc
-.env
-
-# Node
 node_modules/
 dist/
-
-# Editor/OS
-.vscode/
-.DS_Store
-
-# Jupyter
-.ipynb_checkpoints/
+__pycache__/
+.venv/
+.venv_test/
+.env
+test_err.py
+backend/scratchpad_test.py

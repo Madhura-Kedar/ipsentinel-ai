@@ -26,19 +26,19 @@ app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], all
 print("Loading model + index...")
 try:
     model = SentenceTransformer('all-MiniLM-L6-v2')
-    index = faiss.read_index('patent_index.faiss')
-    df = pd.read_pickle('patents_df.pkl')
+    index = faiss.read_index(os.path.join(os.path.dirname(__file__), 'patent_index.faiss'))
+    df = pd.read_pickle(os.path.join(os.path.dirname(__file__), 'patents_df.pkl'))
 except Exception as e:
     print(f"Warning: Could not load FAISS index or dataset. IP Search features will fail later. Error: {e}")
 
 try:
-    tm_df = pd.read_csv('trademarks_demo.csv')
+    tm_df = pd.read_csv(os.path.join(os.path.dirname(__file__), 'trademarks_demo.csv'))
 except Exception as e:
     print(f"Warning: Could not load trademark dataset: {e}")
     tm_df = None
 
 try:
-    cr_df = pd.read_csv('copyrights_demo.csv')
+    cr_df = pd.read_csv(os.path.join(os.path.dirname(__file__), 'copyrights_demo.csv'))
 except Exception as e:
     print(f"Warning: Could not load copyright dataset: {e}")
     cr_df = None
@@ -1205,8 +1205,8 @@ async def draft_assistant_endpoint(input_data: DraftRequest):
 import uuid
 import datetime
 
-MONITORS_FILE = "monitors.json"
-ALERTS_FILE = "alerts.json"
+MONITORS_FILE = os.path.join(os.path.dirname(__file__), "monitors.json")
+ALERTS_FILE = os.path.join(os.path.dirname(__file__), "alerts.json")
 
 def load_monitors():
     if os.path.exists(MONITORS_FILE):

@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pandas
+numpy
+faiss-cpu
+sentence-transformers
+python-dotenv
+pypdf
+python-docx
+langchain-google-genai
+langchain-core
+langgraph
+python-multipart

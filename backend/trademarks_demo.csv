@@ -1,0 +1,36 @@
+id,mark,owner,category,status,description,source
+TM0001,NOVALYN,TechNova Corp,Technology,Active,Smart AI driven cloud infrastructure platform,Demo Dataset
+TM0002,GREENFLOW,GreenFlow Energy,Energy,Active,Smart irrigation and sustainable farming technology,Demo Dataset
+TM0003,SMARTCROP,AgriTech Inc,Agriculture,Pending,IoT crop monitoring and smart technology,Demo Dataset
+TM0004,CYBERNEST,CyberNest Security,Cybersecurity,Active,Enterprise firewall and cyber defense,Demo Dataset
+TM0005,AURALINK,AuraLink Tech,Telecommunications,Active,Next generation smart communication devices,Demo Dataset
+TM0006,DATAFORGE,DataForge Systems,Software,Active,Big data analytics and smart machine learning,Demo Dataset
+TM0007,ECOWAVE,EcoWave Solutions,Environmental,Active,Green wave energy conversion technology,Demo Dataset
+TM0008,QUANTUMLEAP,QuantumLeap AI,Technology,Pending,Quantum computing algorithms and smart hardware,Demo Dataset
+TM0009,NEXUSCORE,NexusCore Inc,Software,Active,Distributed database management technology,Demo Dataset
+TM0010,VITALSYNC,VitalSync Health,Healthcare,Active,Smart wearable devices for health tracking,Demo Dataset
+TM0011,SOLARFLARE,SolarFlare Energy,Energy,Active,High efficiency solar panel technology,Demo Dataset
+TM0012,NEUROPATH,NeuroPath Medical,Medical,Pending,Smart neural implants and diagnostic tools,Demo Dataset
+TM0013,AEROSTREAM,AeroStream Dynamics,Aerospace,Active,Smart aerodynamic design software,Demo Dataset
+TM0014,ROBOSMITH,RoboSmith Robotics,Robotics,Active,Industrial smart robots and automation,Demo Dataset
+TM0015,LUMINA,Lumina Lighting,Electronics,Active,Smart LED lighting systems,Demo Dataset
+TM0016,SYNAPSE,Synapse Networks,Networking,Active,Smart mesh networking routers,Demo Dataset
+TM0017,OMNICAST,OmniCast Media,Media,Pending,Smart broadcasting technology,Demo Dataset
+TM0018,TECHNOVA,TechNova Solutions,Technology,Active,Enterprise software solutions and smart tools,Demo Dataset
+TM0019,CYBERGUARD,CyberGuard Inc,Cybersecurity,Active,Smart threat detection algorithms,Demo Dataset
+TM0020,GREENHARVEST,GreenHarvest Ag,Agriculture,Active,Smart crop harvesting machinery,Demo Dataset
+TM0021,SMARTHIVE,SmartHive IoT,IoT,Active,Smart home automation hubs,Demo Dataset
+TM0022,AQUASENSE,AquaSense Tech,Environmental,Pending,Smart water quality monitoring sensors,Demo Dataset
+TM0023,BIOSTREAM,BioStream Labs,Biotech,Active,Smart bioreactor monitoring technology,Demo Dataset
+TM0024,CRYPTOSAFE,CryptoSafe Digital,Finance,Active,Smart cryptocurrency wallet security,Demo Dataset
+TM0025,LOGIQTICS,Logiqtics Supply,Logistics,Active,Smart supply chain management software,Demo Dataset
+TM0026,PIXELPERFECT,PixelPerfect Imaging,Software,Active,Smart image processing technology,Demo Dataset
+TM0027,SOUNDWAVE,SoundWave Audio,Electronics,Pending,Smart acoustic noise cancellation,Demo Dataset
+TM0028,THERMOSTAT,ThermoStat Climate,IoT,Active,Smart climate control systems,Demo Dataset
+TM0029,VELOCITY,Velocity Automotive,Automotive,Active,Smart electric vehicle drivetrains,Demo Dataset
+TM0030,VISIONARY,Visionary Optics,Medical,Active,Smart augmented reality contact lenses,Demo Dataset
+TM0031,CROPCARE,CropCare Systems,Agriculture,Active,Smart automated crop spraying drones,Demo Dataset
+TM0032,CYBERSHIELD,CyberShield Defense,Cybersecurity,Pending,Smart endpoint protection software,Demo Dataset
+TM0033,DATAMIND,DataMind Analytics,Software,Active,Smart predictive data modeling,Demo Dataset
+TM0034,ECOSMART,EcoSmart Appliances,Consumer,Active,Smart energy efficient home appliances,Demo Dataset
+TM0035,FLOWTECH,FlowTech Hydraulics,Industrial,Active,Smart fluid dynamics control valves,Demo Dataset
