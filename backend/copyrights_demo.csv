@@ -1,0 +1,38 @@
+id,title,description,owner,category,status,source
+CR0001,NexusCore Platform,Source code for enterprise distributed database,NexusCore Inc,Software,Registered,Demo Dataset
+CR0002,GreenFlow App,Mobile app UI and source code for irrigation control,GreenFlow Energy,Mobile App,Registered,Demo Dataset
+CR0003,QuantumLeap Algorithms,Quantum computing algorithm source code,QuantumLeap AI,Software,Pending,Demo Dataset
+CR0004,CyberNest Firewall,Source code for enterprise firewall system,CyberNest Security,Software,Registered,Demo Dataset
+CR0005,AuraLink OS,Embedded operating system for smart devices,AuraLink Tech,Software,Registered,Demo Dataset
+CR0006,DataForge Analytics,Big data analytics engine source code,DataForge Systems,Software,Registered,Demo Dataset
+CR0007,EcoWave Designs,Technical drawings for wave energy converters,EcoWave Solutions,Digital Art,Registered,Demo Dataset
+CR0008,VitalSync Health App,Mobile app for health tracking and syncing,VitalSync Health,Mobile App,Registered,Demo Dataset
+CR0009,SolarFlare Schematics,Solar panel layout and schematic designs,SolarFlare Energy,Digital Art,Pending,Demo Dataset
+CR0010,NeuroPath UI,User interface design for medical diagnostic tool,NeuroPath Medical,UI/UX Design,Registered,Demo Dataset
+CR0011,AeroStream CAD,CAD files for aerodynamic testing,AeroStream Dynamics,Digital Art,Registered,Demo Dataset
+CR0012,RoboSmith Control,Control software for industrial robots,RoboSmith Robotics,Software,Registered,Demo Dataset
+CR0013,Lumina App,Mobile app for smart LED lighting control,Lumina Lighting,Mobile App,Pending,Demo Dataset
+CR0014,Synapse Router Firmware,Firmware source code for mesh routers,Synapse Networks,Software,Registered,Demo Dataset
+CR0015,OmniCast Platform,Broadcasting software and UI design,OmniCast Media,Software,Registered,Demo Dataset
+CR0016,TechNova ERP,Enterprise resource planning software,TechNova Solutions,Software,Registered,Demo Dataset
+CR0017,CyberGuard Engine,Threat detection AI models and source code,CyberGuard Inc,AI/ML,Registered,Demo Dataset
+CR0018,GreenHarvest UI,Dashboard UI for crop monitoring,GreenHarvest Ag,UI/UX Design,Registered,Demo Dataset
+CR0019,SmartHive App,Mobile app for home automation,SmartHive IoT,Mobile App,Pending,Demo Dataset
+CR0020,AquaSense Firmware,Water monitoring sensor firmware,AquaSense Tech,Software,Registered,Demo Dataset
+CR0021,BioStream Analytics,Bioreactor data analytics software,BioStream Labs,Software,Registered,Demo Dataset
+CR0022,CryptoSafe Wallet,Cryptocurrency wallet source code,CryptoSafe Digital,Software,Registered,Demo Dataset
+CR0023,Logiqtics SCM,Supply chain management software platform,Logiqtics Supply,Software,Pending,Demo Dataset
+CR0024,PixelPerfect Engine,Image processing software algorithms,PixelPerfect Imaging,Software,Registered,Demo Dataset
+CR0025,SoundWave DSP,Digital signal processing software,SoundWave Audio,Software,Registered,Demo Dataset
+CR0026,ThermoStat UI,Smart thermostat control interface design,ThermoStat Climate,UI/UX Design,Registered,Demo Dataset
+CR0027,Velocity Drivetrain,Electric vehicle drivetrain control software,Velocity Automotive,Software,Registered,Demo Dataset
+CR0028,Visionary AR,Augmented reality app source code,Visionary Optics,Mobile App,Registered,Demo Dataset
+CR0029,CropCare Drone Control,Drone flight control software,CropCare Systems,Software,Pending,Demo Dataset
+CR0030,CyberShield Endpoint,Endpoint protection software source code,CyberShield Defense,Software,Registered,Demo Dataset
+CR0031,DataMind ML Models,Predictive data modeling AI weights and code,DataMind Analytics,AI/ML,Registered,Demo Dataset
+CR0032,EcoSmart App,Mobile app for appliance management,EcoSmart Appliances,Mobile App,Registered,Demo Dataset
+CR0033,FlowTech Control,Hydraulic control software,FlowTech Hydraulics,Software,Registered,Demo Dataset
+CR0034,Symphony of the Cloud,Original musical composition for corporate video,CloudCorp Media,Music,Registered,Demo Dataset
+CR0035,Cyber Odyssey,Educational game about cybersecurity,CyberLearn Inc,Game,Registered,Demo Dataset
+CR0036,AI in Action,Educational video course on artificial intelligence,TechLearn Academy,Educational Content,Registered,Demo Dataset
+CR0037,Data Insights,Photography collection of data centers,Global Shots,Photography,Registered,Demo Dataset

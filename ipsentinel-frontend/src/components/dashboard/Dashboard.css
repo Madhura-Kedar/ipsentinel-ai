@@ -1,0 +1,241 @@
+/* Dashboard Components Styles */
+
+.metric-card-body {
+  padding: 24px;
+}
+
+/* Staggered animation for metrics grid */
+.metrics-grid > :nth-child(1) { animation: slideUp 0.5s ease-out 0.1s both; }
+.metrics-grid > :nth-child(2) { animation: slideUp 0.5s ease-out 0.15s both; }
+.metrics-grid > :nth-child(3) { animation: slideUp 0.5s ease-out 0.2s both; }
+.metrics-grid > :nth-child(4) { animation: slideUp 0.5s ease-out 0.25s both; }
+.metrics-grid > :nth-child(5) { animation: slideUp 0.5s ease-out 0.3s both; }
+
+.metric-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.metric-title {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.metric-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  animation: floatSoft 4s ease-in-out infinite;
+}
+
+.metric-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.metric-trend {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.trend-up {
+  color: var(--success);
+}
+
+.trend-down {
+  color: var(--danger);
+}
+
+/* Dashboard Layout Specifics */
+.dashboard-header {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.dashboard-title-area {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.dashboard-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--accent-cyan);
+  text-transform: uppercase;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.dashboard-subtitle {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.dashboard-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.dashboard-lower {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+}
+
+@media (max-width: 1200px) {
+  .dashboard-lower {
+    grid-template-columns: 1fr;
+  }
+}
+
+.charts-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 800px) {
+  .charts-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Recent Analyses Table */
+.recent-table-container {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.recent-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.recent-table th {
+  text-align: left;
+  padding: 16px 20px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+  border-bottom: 1px solid var(--border-color);
+  white-space: nowrap;
+}
+
+.recent-table td {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border-light);
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+.recent-table tr {
+  transition: all 0.2s ease;
+}
+
+.recent-table tr:last-child td {
+  border-bottom: none;
+}
+
+.recent-table tbody tr:hover td {
+  background-color: var(--bg-surface-hover);
+  cursor: pointer;
+}
+
+.table-cell-title {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.table-cell-sub {
+  font-family: var(--font-mono);
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+}
+
+/* Right Panel Items */
+.insight-item {
+  padding: 16px;
+  border-radius: 8px;
+  background: linear-gradient(145deg, rgba(34, 211, 238, 0.05) 0%, transparent 100%);
+  border: 1px solid rgba(34, 211, 238, 0.2);
+  margin-bottom: 16px;
+}
+
+.insight-title {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  color: var(--text-primary);
+}
+
+.insight-desc {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.insight-link {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-cyan);
+}
+
+.alert-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.alert-item {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.alert-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-top: 6px;
+  flex-shrink: 0;
+}
+
+.alert-content p {
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+}
+
+.alert-content span {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
